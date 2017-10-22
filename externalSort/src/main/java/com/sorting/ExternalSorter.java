@@ -10,5 +10,5 @@ public class ExternalSorter {
     public void exSort(final File input, final File output) throws IOException {
         ExternalSort.mergeSortedFiles(ExternalSort.sortInBatch(input), output);
     }
-    
+
 }
