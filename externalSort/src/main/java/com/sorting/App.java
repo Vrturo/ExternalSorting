@@ -9,8 +9,8 @@ import java.io.IOException;
  *
  */
 public class App {
-    public static File one = new File("../../../resources/input");
-    public static File two = new File("../../../resources/output");
+    public static File one = new File("/Users/Art/IdeaProjects/ExternalSorting/externalSort/src/main/resources/input2.txt");
+    public static File two = new File("/Users/Art/IdeaProjects/ExternalSorting/externalSort/src/main/resources/output");
 
     public static void main( String ...args) throws IOException {
         System.out.println( "Hello Sorter!" );
